@@ -1,3 +1,4 @@
+import { Heading } from '@ignite-ui/react'
 import Head from 'next/head'
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />        
       </Head>
       <main>
-        <h1>Hello World</h1>
+        <Heading as="h1">Hello World</Heading>
       </main>
     </>
   )
